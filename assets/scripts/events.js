@@ -1,6 +1,6 @@
 
 const api = require('./api')
-const ui = require('./ui')
+const ui = require('./ui-behavior')
 
 const onGetBooks = function (event) {
   api.getBooks()
