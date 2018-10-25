@@ -1,1 +1,16 @@
 @import '~bootstrap/scss/bootstrap';
+
+footer {
+  position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding-left: 20px;
+    color: black;
+}
+
+.card {
+  height: 500px;
+  overflow: scroll;
+}
