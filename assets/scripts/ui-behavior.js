@@ -1,7 +1,7 @@
 const showBooksTemplate = require('./templates/book-listing.handlebars')
 
 const showBooksSuccess = function (response) {
-  const showBooksHtml = showBooksTemplate({books: response.books })
+  const showBooksHtml = showBooksTemplate({ books: response.books })
   $('#data-display').html(showBooksHtml)
 }
 
@@ -10,5 +10,6 @@ const showBooksFailure = function (response) {
 }
 
 module.exports = {
-  showBooksSuccess
+  showBooksSuccess,
+  showBooksFailure
 }
