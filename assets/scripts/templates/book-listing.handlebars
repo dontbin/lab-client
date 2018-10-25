@@ -1,0 +1,7 @@
+<div class="bookrecords">
+<ul>
+  {{#each books as |book|}}
+    <li data-id="{{book.id}}"> <small>Book ID: {{book.id}}</small> | <strong>Title: {{book.title}}</strong></li>
+  {{/each}}
+</ul>
+</div>
